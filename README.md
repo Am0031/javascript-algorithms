@@ -6,3 +6,4 @@ In this project we are writing simple functions and corresponding tests using no
 
 - oddOrEven: check if number is odd or event
 - isUnique: check if array contains only unique numbers
+- isAnagram: check if two strings are anagrams (same letters)
