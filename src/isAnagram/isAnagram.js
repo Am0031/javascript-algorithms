@@ -1,4 +1,7 @@
 const isAnagram = (stringA, stringB) => {
+  const strA = stringA.replace(/\s/g, "");
+  const strB = stringB.replace(/\s/g, "");
+
   const countOccurences = (string, letter) => {
     const occurences = string.split("").filter(function (char, i) {
       if (char == letter) {
@@ -13,12 +16,12 @@ const isAnagram = (stringA, stringB) => {
   const stringBContent = [];
   let identicalOccurences;
 
-  if (stringA.length === stringB.length) {
-    for (let i = 0; i < stringA.length; i += 1) {
-      const letterToCheck = stringA.charAt(i);
-      const strAOccurence = countOccurences(stringA, letterToCheck);
+  if (strA.length === strB.length) {
+    for (let i = 0; i < strA.length; i += 1) {
+      const letterToCheck = strA.charAt(i);
+      const strAOccurence = countOccurences(strA, letterToCheck);
       stringAContent.push(strAOccurence);
-      const strBOccurence = countOccurences(stringB, letterToCheck);
+      const strBOccurence = countOccurences(strB, letterToCheck);
       stringBContent.push(strBOccurence);
     }
 

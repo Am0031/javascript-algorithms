@@ -8,6 +8,13 @@ describe("isAnagram", () => {
     expect(actual).toEqual(true);
   });
 
+  it("should return 'true' when two strings are anagrams, have same number of letters and same letters like 'particular' and 'parri tal uc'", () => {
+    const stringA = "particular";
+    const stringB = "parri tal uc";
+    const actual = isAnagram(stringA, stringB);
+    expect(actual).toEqual(true);
+  });
+
   it("should return 'false' when two strings are not anagrams, have same length but not same letters like 'particular' and 'parriraluc'", () => {
     const stringA = "particular";
     const stringB = "parriraluc";
