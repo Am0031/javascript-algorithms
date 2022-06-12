@@ -38,4 +38,4 @@ Given the preceding array and target number, the following number should be retu
 const result = 2;
 ```
 
-Important:\*\* You may not use the built-in `indexOf()`, `lastIndexOf()`, or `includes()` methods for this problem.
+Important:\*\* We may not use the built-in `indexOf()`, `lastIndexOf()`, or `includes()` methods for this problem.
