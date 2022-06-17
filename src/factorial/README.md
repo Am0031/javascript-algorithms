@@ -1,36 +1,28 @@
 # Factorial
 
-In this activity, you will be writing code to create a function that returns the factorial of a given number. A **factorial** of a number is the product of all positive integers less than or equal to the number. For more information, see the [Wikipedia page on factorials](https://en.wikipedia.org/wiki/Factorial).
+In this activity, we will be writing code to create a function that returns the factorial of a given number. A **factorial** of a number is the product of all positive integers less than or equal to the number. For more information, see the [Wikipedia page on factorials](https://en.wikipedia.org/wiki/Factorial).
 
-## Instructions
+## Details
 
-* Open [Unsolved/factorial.js](Unsolved/factorial.js) in your code editor&mdash;this is the only file you will modify in this activity.
+We will be writing code in the body of the `factorial` function to achieve the following: return the factorial of the given `num` integer.
 
-  * In this file, you will be writing code in the body of the `factorial` function to achieve the following:
+we will assume that the given number is a a whole positive number.
 
-    * Return the factorial of the given `num` integer.
+See the following code for an example:
 
-    * See the following code for an example:
+```js
+const num = 3;
+```
 
-      ```js
-      var num = 3;
-      ```
+Given the preceding number, the following should be returned:
 
-    * Given the preceding number, the following should be returned:
+```js
+//  product of numbers from 1 to given number 3: 1 x 2 x 3 === 6
+const result = 6;
+```
 
-      ```js
-      6;
-      // 1 x 2 x 3 === 6
-      ```
+If given the number `0`, the factorial should be `1`.
 
-    * If given `0`, the factorial should be `1`. Otherwise, assume that the given number will be a whole positive number.
+If given the number `1`, the factorial should also be `1`.
 
-* You can check whether your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
-
-  * Functions that pass the tests will be denoted with a green check mark.
-
-  * Functions that fail the tests will be denoted with a red X and an error message.
-
-- - -
-
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+If given a negative number, the factorial should return "undefined".
