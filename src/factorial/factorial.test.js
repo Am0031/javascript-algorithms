@@ -1,4 +1,4 @@
-//requiring the linearSearch.js function
+//requiring the factorial.js function
 const { factorial } = require("./factorial");
 
 describe("factorial", () => {
