@@ -13,7 +13,7 @@ We will be writing code in the body of the `isPerfectSquare()` function to achie
 - See the following number for an example:
 
       ```js
-      var num = 36; // Square root of 36 is 6
+      const num = 36; // Square root of 36 is 6
       ```
 
 - Given the preceding number, `true` should be returned.
@@ -21,7 +21,7 @@ We will be writing code in the body of the `isPerfectSquare()` function to achie
 - See the following number for another example:
 
       ```js
-      var num = 50; // Square root of 50 is 7.07106781187
+      const num = 50; // Square root of 50 is 7.07106781187
       ```
 
 - Given the preceding number, `false` should be returned.
