@@ -15,8 +15,9 @@ describe("camelCase", () => {
     expect(result).toEqual(expected);
   });
   it("should return a camelCase string", () => {
+    const expected = "theShowMustGoOn";
     const string = "The show must go on";
     const result = camelCase(string);
-    expect(result).toMatch("theShowMustGoOn");
+    expect(result).toMatch(expected);
   });
 });
