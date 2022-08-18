@@ -1,12 +1,12 @@
 //function to return true when the number is a perfect square.
 
-const isPerfectSquare = (number) => {
+const isPerfectSquare = (num) => {
   let status = false;
-
   let i = 1;
-  while (status === false && i < number) {
+
+  while (status === false && i < num) {
     const square = i * i;
-    square === number ? status === true : (i += 1);
+    square === num ? (status = true) : (i += 1);
   }
 
   return status;
