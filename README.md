@@ -11,6 +11,7 @@ Numbers:
 - factorial: returns the factorial of a given positive number, or 1 when given 0, or undefined when given a negative number
 - mostSongs: return the maximum number of elements present in the array, with a maximum sum of 60
 - isPerfectSquare: check if a number is a perfect square number or not
+- isPrimeNumber: check if a number is a prime number
 
 Strings:
 
