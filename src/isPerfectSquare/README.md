@@ -28,6 +28,4 @@ We will be writing code in the body of the `isPerfectSquare()` function to achie
 
 - **Note**: we will aim to complete this problem without using the built-in `Math.sqrt()` method.
 
-### Help
-
-If we aren't allowed to check the square root of the given number, can we check whether the [square of the number](http://www.math.com/school/subject1/lessons/S1U1L9GL.html) is the given number?
+So if we aren't allowed to check the square root of the given number, can we check whether the square of the number is the given number?

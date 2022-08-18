@@ -1,3 +1,13 @@
+const { isPerfectSquare } = require("./isPerfectSquare");
+
+describe("isPerfectSquare", () => {
+  it("should return true when given the number 9", () => {
+    const expected = true;
+    const number = 9;
+    const result = isPerfectSquare(number);
+    expect(result).toEqual(expected);
+  });
+});
 //should return true when given the number 9
 //should return true when given the number 16
 //should return true when given the number 81
