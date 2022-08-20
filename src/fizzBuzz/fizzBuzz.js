@@ -8,16 +8,14 @@ const fizzBuzz = (fizzNum, buzzNum, count) => {
     let output = "";
     if (i % fizzNum === 0) output += "Fizz";
     if (i % buzzNum === 0) output += "Buzz";
-
     if (output === "") output += i;
-
     result.push(output);
   }
 
   return result.join(", ");
 };
 
-//2nd version - split for more reuseable functions
+//2nd version - split for more reuseable parts of the function
 const getFizzBuzzString = (fizzNum, buzzNum, num) => {
   let output = "";
   if (num % fizzNum === 0) output += "Fizz";
