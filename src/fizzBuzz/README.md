@@ -1,4 +1,4 @@
-# Is Perfect Square
+# FizzBuzz test
 
 In this activity we will be writing code to create a function that goes through the numbers 1 to 100 and for each number:
 
