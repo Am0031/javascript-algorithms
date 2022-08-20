@@ -1,19 +1,36 @@
-//function to return true when the number is a perfect square.
+//function to return a string of all results when passing each number into the fizzbuzz test
 
-const fizzBuzz = (num1, num2) => {
-  let result = "";
+//1st version - all in 1 function
+const fizzBuzz = (fizzNum, buzzNum, count) => {
+  const result = [];
 
-  for (let i = 1; i <= 100; i += 1) {
+  for (let i = 1; i <= count; i += 1) {
     let output = "";
-    if (i % num1 === 0) output += "Fizz";
-    if (i % num2 === 0) output += "Buzz";
+    if (i % fizzNum === 0) output += "Fizz";
+    if (i % buzzNum === 0) output += "Buzz";
 
-    output === "" ? (output += i + ", ") : (output += ", ");
+    if (output === "") output += i;
 
-    result += output;
+    result.push(output);
   }
 
-  return result;
+  return result.join(", ");
 };
 
-module.exports = { fizzBuzz };
+//2nd version - split for more reuseable functions
+const getFizzBuzzString = (fizzNum, buzzNum, num) => {
+  let output = "";
+  if (num % fizzNum === 0) output += "Fizz";
+  if (num % buzzNum === 0) output += "Buzz";
+
+  return !!output ? output : num;
+};
+const fizzBuzz2 = (fizzNum, buzzNum, count) => {
+  const result = [];
+  for (let i = 1; i <= count; i += 1) {
+    result.push(getFizzBuzzString(fizzNum, buzzNum, i));
+  }
+  return result.join(", ");
+};
+
+module.exports = { fizzBuzz, fizzBuzz2, getFizzBuzzString };
