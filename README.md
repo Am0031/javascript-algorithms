@@ -1,10 +1,16 @@
 # javascript-algorithms
 
-In this project we are writing simple functions and corresponding tests using node.js and the jest package
+This project compiles a variety of functions and corresponding tests using javascript, ode.js and the jest package
 
-## Functions in the project
+## Folder structure
 
-Numbers:
+All works are located in the `src` folder. The `src` folder contained a folder per function/algorithms. The names of the folders match the items listed below.
+
+Each function folder contains at least a readme with more explainations for the specific function, a .js file with the function and a .test.js for the corresponding jest testing.
+
+## Functions and algorithms
+
+### Numbers
 
 - oddOrEven: check if number is odd or event
 - isPerfectSquare: check if a number is a perfect square number or not
@@ -13,12 +19,12 @@ Numbers:
 - mostSongs: return the maximum number of elements present in the array, with a maximum sum of 60
 - fizzBuzz: goes through the numbers 1 to 100 and for each number: replaces it by `Fizz` if the number is divisable by num1, replaces it by `Buzz` if the number is divisable by num2, replaces it by `FizzBuzz` if the number is divisable by both num1 and num2, or keeps the number itself, and then returns the complete string of results for all numbers.
 
-Strings:
+### Strings
 
 - isAnagram: check if two strings are anagrams (same letters)
 - camelCase: changes the format of a string to a camel case format
 
-Arrays:
+### Arrays
 
 - isUnique: check if array contains only unique numbers
 - arraySearch2D: returns the number of times a specific character
