@@ -1,6 +1,6 @@
 # Linear Search
 
-In this activity, we will write code to create a function that takes an array of numbers and a target number and returns the index of the target number in the given array.
+In this activity, we will write code to create a function that takes an array of numbers and a target number and searches the array using a linear search function and returns the index of the target number in the given array.
 
 ## Instructions
 
