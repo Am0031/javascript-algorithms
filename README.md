@@ -27,3 +27,5 @@ Arrays:
 - productOfLargestTwo: finds the largest two numbers in an array and returns the product of these numbers
 - linearSearch: returns the index of the first occurence of a given number in an array of numbers, or -1 if the given number is not in the array
 - binarySearch: returns the index of a given number in a sorted array of numbers where all numbers are unique
+- bubbleSort: sorts numbers in an array using the bubble sort method
+- mergeSort: sorts numbers in an array using the merge sort method
