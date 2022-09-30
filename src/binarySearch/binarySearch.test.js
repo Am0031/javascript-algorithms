@@ -9,9 +9,7 @@ describe("binarySearch-recursive", () => {
     const arr = [1, 8, 21, 22, 82];
     const target = 8;
     const expected = 1;
-    const start = 0;
-    const end = arr.length - 1;
-    const result = binarySearchRecursive(arr, target, start, end);
+    const result = binarySearchRecursive(arr, target);
     expect(result).toEqual(expected);
   });
 
@@ -19,9 +17,7 @@ describe("binarySearch-recursive", () => {
     const arr = [-7, -4, 1, 2, 7, 8, 10, 21, 22, 82];
     const target = 8;
     const expected = 5;
-    const start = 0;
-    const end = arr.length - 1;
-    const result = binarySearchRecursive(arr, target, start, end);
+    const result = binarySearchRecursive(arr, target);
     expect(result).toEqual(expected);
   });
 
@@ -29,9 +25,7 @@ describe("binarySearch-recursive", () => {
     const arr = [];
     const target = 6;
     const expected = -1;
-    const start = 0;
-    const end = arr.length - 1;
-    const result = binarySearchRecursive(arr, target, start, end);
+    const result = binarySearchRecursive(arr, target);
     expect(result).toEqual(expected);
   });
 
@@ -39,9 +33,7 @@ describe("binarySearch-recursive", () => {
     const arr = [4];
     const target = 4;
     const expected = 0;
-    const start = 0;
-    const end = arr.length - 1;
-    const result = binarySearchRecursive(arr, target, start, end);
+    const result = binarySearchRecursive(arr, target);
     expect(result).toEqual(expected);
   });
 
@@ -49,9 +41,7 @@ describe("binarySearch-recursive", () => {
     const arr = [4];
     const target = 6;
     const expected = -1;
-    const start = 0;
-    const end = arr.length - 1;
-    const result = binarySearchRecursive(arr, target, start, end);
+    const result = binarySearchRecursive(arr, target);
     expect(result).toEqual(expected);
   });
 
@@ -59,10 +49,22 @@ describe("binarySearch-recursive", () => {
     const arr = [-7, -4, 1, 2, 7, 8, 10, 21, 22, 82];
     const target = 6;
     const expected = -1;
-    const start = 0;
-    const end = arr.length - 1;
-    const result = binarySearchRecursive(arr, target, start, end);
+    const result = binarySearchRecursive(arr, target);
     expect(result).toEqual(expected);
+  });
+
+  it("should return undefined for undefined array", () => {
+    const arr = undefined;
+    const target = 6;
+    const result = binarySearchRecursive(arr, target);
+    expect(result).toBeUndefined();
+  });
+
+  it("should return undefined for undefined target", () => {
+    const arr = [-7, -4, 1, 2, 7, 8, 10, 21, 22, 82];
+    const target = undefined;
+    const result = binarySearchRecursive(arr, target);
+    expect(result).toBeUndefined();
   });
 });
 
@@ -113,5 +115,19 @@ describe("binarySearch-iterative", () => {
     const expected = -1;
     const result = binarySearchIterative(arr, target);
     expect(result).toEqual(expected);
+  });
+
+  it("should return undefined for undefined array", () => {
+    const arr = undefined;
+    const target = 6;
+    const result = binarySearchIterative(arr, target);
+    expect(result).toBeUndefined();
+  });
+
+  it("should return undefined for undefined target", () => {
+    const arr = [-7, -4, 1, 2, 7, 8, 10, 21, 22, 82];
+    const target = undefined;
+    const result = binarySearchIterative(arr, target);
+    expect(result).toBeUndefined();
   });
 });
