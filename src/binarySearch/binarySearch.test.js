@@ -1,4 +1,4 @@
-//requiring the binarySearchRecursive.js function
+//requiring the binarySearchRecursive and binarySearchIterative functions
 const {
   binarySearchRecursive,
   binarySearchIterative,

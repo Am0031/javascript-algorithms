@@ -1,10 +1,12 @@
 # Binary Search
 
-In this activity, we will write code to create a function that takes a sorted array of numbers and a target number and searches the array using a binary search function and returns the index of the target number in the given array.
+In this activity, we will write code to create functions that take a sorted array of numbers and a target number and search the array using a binary search function and return the index of the target number in the given array.
+
+We will write a recursive approach and a iterative approach.
 
 ## Instructions
 
-Expected behaviour: return the index of the given `target` number in the given `arr` array.
+Expected behaviour: return the index of the given `target` number in the given `arr` sorted array.
 
 If the `target` number is not present in the given `arr` array, return `-1`.
 
@@ -89,5 +91,3 @@ Given the preceding array and target number, the following number should be retu
 ```js
 const result = -1;
 ```
-
-Important:\*\* We will write a recursive approach and a iterative approach
