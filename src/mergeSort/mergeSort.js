@@ -1,4 +1,4 @@
-//function that finds the largest two numbers in an array and returns the product of both numbers
+//function that sorts an array using the mergeSort method
 
 const merge = (leftArray, rightArray) => {
   //temporary array to hold the sorted items
