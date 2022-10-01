@@ -1,5 +1,7 @@
 # javascript-algorithms
 
+![MIT](https://img.shields.io/badge/License-MIT-blue)
+
 This project compiles a variety of functions and corresponding tests using javascript, ode.js and the jest package
 
 ## Folder structure
@@ -36,3 +38,7 @@ Each function folder contains at least a readme with more explainations for the 
 - bubbleSort: sorts numbers in an array using the bubble sort method
 - mergeSort: sorts numbers in an array using the merge sort method
 - heapSort: sorts numbers in an array using the heap sort method
+
+## Contact me
+
+If you have any questions about this repo, feel free to get in touch by sending me an [email](mailto:amelie.pira@gmail.com).
