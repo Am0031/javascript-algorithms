@@ -35,3 +35,4 @@ Each function folder contains at least a readme with more explainations for the 
 - binarySearch: returns the index of a given number in a sorted array of numbers where all numbers are unique
 - bubbleSort: sorts numbers in an array using the bubble sort method
 - mergeSort: sorts numbers in an array using the merge sort method
+- heapSort: sorts numbers in an array using the heap sort method
