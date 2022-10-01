@@ -10,6 +10,7 @@ class MaxHeap extends Heap {
     }
   }
 
+  //method to create a heap with max at top
   insert(item) {
     this.heap.push(item);
     var index = this.heap.length - 1;

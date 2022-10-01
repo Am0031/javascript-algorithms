@@ -8,10 +8,10 @@ const heapSort = (array, isDescending) => {
   if (!array || array.length < 2) return array;
 
   //check if ascending or descending condition
-  //then create the heap from the array
+  //then create the right heap from the array
   const heap = isDescending ? new MaxHeap(array) : new MinHeap(array);
 
-  //return sorted array
+  //return sorted array from the created heap
   return heap.sort();
 };
 
