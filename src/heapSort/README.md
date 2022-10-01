@@ -13,11 +13,12 @@ We will be writing code for the `heapSortMax` and `heapSortMin` functions to ach
 
 `heapSortMin` will sort items in ascending order (from smallest to largest).
 
-In this process, the heap sort will involve:
+In this process, in order to keep our code clean, the heap sort will involve:
 
 - A class: the constructor method creates the heap, and the methods set in this class help achieve the sorting of the array by looking into the heap indexes and operating the relevant insert, delete and swap operations to the heap.
   - the `MaxHeap` class deals with a heap set in descending order (largest item at the top)
   - the `MinHeap` class deals with a heap set in ascending order (smallest item at the top)
+  - Both classes are descendant of the `Heap` class which sets the basic features of a heap.
 - A function: the function receives an array, creates the chosen heap type using this array, and retrieves items from the heap to place them in an array in the chosen order
 
 ## Expected test results

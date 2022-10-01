@@ -1,23 +1,13 @@
-class MinHeap {
-  constructor() {
-    this.heap = [];
-  }
+const Heap = require("./Heap");
 
-  parentIndex(index) {
-    return Math.floor((index - 1) / 2);
-  }
+class MinHeap extends Heap {
+  constructor(array) {
+    super();
 
-  leftChildIndex(index) {
-    return 2 * index + 1;
-  }
-
-  rightChildIndex(index) {
-    return 2 * index + 2;
-  }
-  swap(a, b) {
-    let temp = this.heap[a];
-    this.heap[a] = this.heap[b];
-    this.heap[b] = temp;
+    //create the heap from the array (binary tree with min at top)
+    for (let i = 0; i < array.length; i++) {
+      this.insert(array[i]);
+    }
   }
 
   insert(item) {
