@@ -9,7 +9,7 @@ We will be writing code in the body of the `sumArray` function to achieve the fo
 See the following array for an example:
 
 ```js
-const arr = [3, 1, 5, 6];
+const arr = [3, 5, 7];
 ```
 
 Given the preceding array, the following number should be returned:
