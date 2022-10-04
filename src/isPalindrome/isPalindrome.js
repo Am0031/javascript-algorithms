@@ -2,7 +2,7 @@
 
 const isPalindrome = (string) => {
   //spread the characters into an array
-  const charArray = [...string.toLowerCase()];
+  const charArray = [...string.toLowerCase().replace(/[\W_]/g, "")];
   //check the array is not empty
   if (charArray.length === 0) return false;
 
