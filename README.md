@@ -8,7 +8,7 @@ This project compiles a variety of functions and corresponding tests using javas
 
 All works are located in the `src` folder. The `src` folder contained a folder per function/algorithms. The names of the folders match the items listed below.
 
-Each function folder contains at least a readme with more explainations for the specific function, a .js file with the function and a .test.js for the corresponding jest testing.
+Each function folder contains at least a readme with more explanations for the specific function, a .js file with the function and a .test.js for the corresponding jest testing.
 
 ## Functions and algorithms
 
