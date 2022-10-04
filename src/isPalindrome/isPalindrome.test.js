@@ -73,7 +73,7 @@ describe("isPalindrome2", () => {
   });
   it("should return false when given an empty string", () => {
     const string = "";
-    const result = isPalindrome(string);
+    const result = isPalindrome2(string);
     expect(result).toBe(false);
   });
 });

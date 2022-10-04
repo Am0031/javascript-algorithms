@@ -11,7 +11,6 @@ const isPalindrome = (string) => {
     if (charArray.shift() !== charArray.pop()) return false;
   }
 
-  //return true
   return true;
 };
 
@@ -23,7 +22,7 @@ const isPalindrome2 = (string) => {
 
   //create reverse string
   const reversedString = formattedString.split("").reverse().join("");
-  //compare the two strings
+  //compare the two strings and return result
   return formattedString === reversedString;
 };
 
