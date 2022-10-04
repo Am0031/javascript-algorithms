@@ -15,5 +15,5 @@ const str = "open a new browser tab";
 Given the preceding string, the following should be returned:
 
 ```js
-7;
+const result = 7;
 ```
