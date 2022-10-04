@@ -24,7 +24,9 @@ Each function folder contains at least a readme with more explanations for the s
 ### Strings
 
 - isAnagram: check if two strings are anagrams (same letters)
+- isPalindrome: check if a string is a palindrome (same word when written backwards)
 - camelCase: changes the format of a string to a camel case format
+- titleCase: changes the format of a string to a title case format
 - vowelCount: returns the total number of vowels present in a string
 
 ### Arrays
