@@ -15,4 +15,16 @@ const isPalindrome = (string) => {
   return true;
 };
 
-module.exports = { isPalindrome };
+const isPalindrome2 = (string) => {
+  //formatted the received string
+  const formattedString = string.toLowerCase().replace(/[\W_]/g, "");
+  //check if the string has at least 1 character to compare
+  if (formattedString.length === 0) return false;
+
+  //create reverse string
+  const reversedString = formattedString.split("").reverse().join("");
+  //compare the two strings
+  return formattedString === reversedString;
+};
+
+module.exports = { isPalindrome, isPalindrome2 };
