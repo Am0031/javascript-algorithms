@@ -25,6 +25,7 @@ Each function folder contains at least a readme with more explainations for the 
 
 - isAnagram: check if two strings are anagrams (same letters)
 - camelCase: changes the format of a string to a camel case format
+- vowelCount: returns the total number of vowels present in a string
 
 ### Arrays
 

@@ -17,3 +17,5 @@ Given the preceding string, the following should be returned:
 ```js
 const result = 7;
 ```
+
+Note: our function should be able to count both lowercase and uppercase vowels, and ignore all consonants, numbers or special characters.
