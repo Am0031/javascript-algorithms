@@ -31,4 +31,10 @@ describe("vowelCount", () => {
     const result = vowelCount(str);
     expect(result).toEqual(expected);
   });
+  it("should return -1 when given another type ", () => {
+    const expected = -1;
+    const str = 5;
+    const result = vowelCount(str);
+    expect(result).toEqual(expected);
+  });
 });
