@@ -33,6 +33,8 @@ Each function folder contains at least a readme with more explainations for the 
   is present in the 2D array
 - largestNumber: returns the largest number in an array of numbers
 - productOfLargestTwo: finds the largest two numbers in an array and returns the product of these numbers
+- sumArray: returns the sum of all the numbers in the array
+- sieve of Eratosthenes: finds the prime numbers in a range of numbers and returns the array of prime numbers
 - linearSearch: returns the index of the first occurence of a given number in an array of numbers, or -1 if the given number is not in the array
 - binarySearch: returns the index of a given number in a sorted array of numbers where all numbers are unique
 - bubbleSort: sorts numbers in an array using the bubble sort method
