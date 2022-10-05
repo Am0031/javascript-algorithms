@@ -51,6 +51,19 @@ Note: some algorithms might have two functions (and each their corresponding tes
 
 A collection of other algorithm practice problems found online are available in the `other.md` file, and my solutions for them are available in the `other-solutions.md` file.
 
+## Installation
+
+To run this project on your own computer, you can follow the steps below in your terminal:
+
+- Clone the repository:
+  - using URL: `git clone https://github.com/Am0031/javascript-algorithms.git`
+  - using SSH key:`git clone git@github.com:Am0031/javascript-algorithms.git`
+- Navigate inside the repository with instruction `cd javascript-algorithms`
+- Install dependencies with instruction `npm install`
+- Use instruction `npm run test` to see the test results in the console
+
+Once the repo is installed, you can go and edit any function if you want to attempt them a different way, or even add your own algorithms for your own practice.
+
 ## Contact me
 
 If you have any questions about this repo, feel free to get in touch by sending me an [email](mailto:amelie.pira@gmail.com).
