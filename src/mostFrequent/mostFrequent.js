@@ -8,7 +8,7 @@ const mostFrequent = (array) => {
     return table;
   }, new Map());
 
-  //iterate over the keys to find the largest entry
+  //reduce entries to find the largest one
   const highestEntry = [...hashTable.entries()].reduce((prev, current) =>
     current[1] > prev[1] ? current : prev
   );
