@@ -2,15 +2,16 @@
 
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
-This project compiles a variety of functions and corresponding tests using javascript, ode.js and the jest package
+This project compiles a variety of functions and corresponding tests using **javascript**, **node.js** and the **jest** testing package.
 
 ## Folder structure
 
 All works are located in the `src` folder. The `src` folder contained a folder per function/algorithms. The names of the folders match the items listed below.
 
-Each function folder contains at least a readme with more explanations for the specific function, a .js file with the function and a .test.js for the corresponding jest testing.
+Each algorithm folder contains at least a readme with more explanations for the specific algorithm, a .js file with the function and a .test.js for the corresponding jest testing.
+Note: some algorithms might have two functions (and each their corresponding tests) when I attempted two different methods.
 
-## Functions and algorithms
+## Functions and algorithms by type
 
 ### Numbers
 
@@ -44,6 +45,11 @@ Each function folder contains at least a readme with more explanations for the s
 - bubbleSort: sorts numbers in an array using the bubble sort method
 - mergeSort: sorts numbers in an array using the merge sort method
 - heapSort: sorts numbers in an array using the heap sort method
+- mostFrequent: finds the items that appears the most in the array and returns the item and the number of times it appears
+
+## Additional practice
+
+A collection of other algorithm practice problems found online are available in the `other.md` file, and my solutions for them are available in the `other-solutions.md` file.
 
 ## Contact me
 
