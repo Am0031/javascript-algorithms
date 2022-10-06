@@ -1,4 +1,6 @@
-# Other algorithms to practice
+# JavaScript algorithms to practice - Arrays
+
+Practice algorithm questions focused on arrays - found on [w3r](https://www.w3resource.com/javascript-exercises/javascript-array-exercises.php).
 
 1. Write a JavaScript function to check whether an `input` is an array or not.
    Test Data :

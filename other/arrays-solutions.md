@@ -1,4 +1,6 @@
-# Other algorithms to practice - My Solutions
+# JavaScript algorithms to practice - Arrays - My Solutions
+
+These are the solutions I worked out for the practice algorithms questions compiled in the [arrays.md](arrays.md) file. There might be other and more efficient ways to resolve the questions.
 
 1. Write a JavaScript function to check whether an `input` is an array or not.
 
