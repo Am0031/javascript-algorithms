@@ -106,6 +106,74 @@ const getStatus = (books) => {
 };
 ```
 
+13. Write a JavaScript function to retrieve all the names of object's own and inherited properties.
+
+```js
+const getAllProps = (obj) => {
+  //if obj is not defined
+  if (!obj) return [];
+  // if obj is a prototype
+  if (typeof obj === "function") {
+    let protoProps = obj.prototype;
+    return Object.getOwnPropertyNames(protoProps);
+    // if obj is an object
+  } else {
+    let objProps = Object.getOwnPropertyNames(obj);
+    let proto = Object.getPrototypeOf(obj);
+    let protoProps = Object.getOwnPropertyNames(proto);
+    return objProps.concat(protoProps);
+  }
+};
+
+const student = {
+  name: "David Rayy",
+  sclass: "VI",
+  rollno: 12,
+};
+
+console.log(getAllProps()); // with undefined
+console.log(getAllProps("student")); // with string
+console.log(getAllProps(String)); // with prototype String
+console.log(getAllProps(Array)); // with prototype Array
+console.log(getAllProps(student)); // with object
+```
+
+14. Write a JavaScript function to retrieve all the values of an object's properties.
+
+The simplest way to achieve this is to use the Object.values method:
+
+```js
+const book = {
+  title: "The Road Ahead",
+  author: "Bill Gates",
+  libraryID: 1254,
+};
+const getValues = (obj) => {
+  return Object.values(obj);
+};
+
+console.log(getValues(book));
+```
+
+If we couldn't use this method, we would look to loop over the object to retrive each value:
+
+```js
+const book = {
+  title: "The Road Ahead",
+  author: "Bill Gates",
+  libraryID: 1254,
+};
+const getValues = (obj) => {
+  const values = [];
+  for (key in obj) {
+    values.push(obj[key]);
+  }
+  return values;
+};
+
+console.log(getValues(book));
+```
+
 15. Write a JavaScript function to convert an object into a list of `[key, value]` pairs.
 
 The simplest way to achieve this is by using the Object.entries method:
@@ -140,4 +208,39 @@ const convert = (obj) => {
 };
 
 console.log(convert(book));
+```
+
+16. Write a JavaScript function to get a copy of the object where the keys have become the values and the values the keys.
+
+```js
+const book = {
+  title: "The Road Ahead",
+  author: "Bill Gates",
+  libraryID: 1254,
+};
+const flip = (obj) => {
+  let newObj = {};
+  for (key in obj) {
+    const newKey = obj[key]; //get the value and store it in new variable
+    newObj[newKey] = key; //set up the new key/value pair in the new object
+  }
+  return newObj;
+};
+console.log(flip(book));
+```
+
+17. Write a JavaScript function to check whether an object contains given property.
+
+```js
+const book = {
+  title: "The Road Ahead",
+  author: "Bill Gates",
+  libraryID: 1254,
+};
+const hasProperty = (obj, property) => {
+  return obj.hasOwnProperty(property);
+};
+
+console.log(hasProperty(book, "title")); //true
+console.log(hasProperty(book, "year")); //false
 ```
