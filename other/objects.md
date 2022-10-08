@@ -49,16 +49,11 @@ You still need to read 'Mockingjay: The Final Book of The Hunger Games' by Suzan
    Volume of a cylinder : V = πr2h
    where r is the radius and h is the height of the cylinder.
 
-6. Write a Bubble Sort algorithm in JavaScript.
-   Note : Bubble sort is a simple sorting algorithm that works by repeatedly stepping through the list to be sorted,
-   Sample Data: [6,4,0, 3,-2,1]
-   Expected Output : [-2, 0, 1, 3, 4, 6]
-
-7. Write a JavaScript program which returns a subset of a string.
+6. Write a JavaScript program which returns a subset of a string.
    Sample Data: dog
    Expected Output: ["d", "do", "dog", "o", "og", "g"]
 
-8. Write a JavaScript program to create a Clock.
+7. Write a JavaScript program to create a Clock.
    Note: The output will come every second.
    Expected Console Output :
    "14:37:42"
@@ -68,11 +63,11 @@ You still need to read 'Mockingjay: The Final Book of The Hunger Games' by Suzan
    "14:37:46"
    "14:37:47"
 
-9. Write a JavaScript program to calculate the area and perimeter of a circle.
+8. Write a JavaScript program to calculate the area and perimeter of a circle.
    Note : Create two methods to calculate the area and perimeter. The radius of the circle will be supplied by the user.
 
-10. Write a JavaScript program to sort an array of JavaScript objects.
-    Sample Object :
+9. Write a JavaScript program to sort an array of JavaScript objects.
+   Sample Object :
 
 var library = [
 {
@@ -124,3 +119,19 @@ title: "Bill Gates"
 17. Write a JavaScript function to check whether an object contains given property.
 
 18. Write a JavaScript function to check whether a given value is a DOM element.
+
+Other questions:
+
+A. Write a JavaScript function to double all values in an object made of items and their price.
+Sample object:
+prices: {
+banana: 1,
+orange: 2,
+meat: 4,
+}
+Expected output:
+prices: {
+banana: 2,
+orange: 4,
+meat: 8,
+}

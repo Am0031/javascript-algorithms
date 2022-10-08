@@ -244,3 +244,20 @@ const hasProperty = (obj, property) => {
 console.log(hasProperty(book, "title")); //true
 console.log(hasProperty(book, "year")); //false
 ```
+
+A. Write a JavaScript function to double all values in an object made of items and their price.
+
+```js
+const prices = {
+  banana: 1,
+  orange: 2,
+  meat: 4,
+};
+const double = (obj) => {
+  return Object.fromEntries(
+    Object.entries(obj).map((entry) => [entry[0], entry[1] * 2])
+  );
+};
+
+console.log(double(prices));
+```
