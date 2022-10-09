@@ -1,5 +1,7 @@
 # JavaScript algorithms to practice - Objects - Solutions
 
+These are the solutions I worked out for the practice algorithms questions compiled in the [objects.md](objects.md) file. There might be other and more efficient ways to resolve the questions.
+
 1. Write a JavaScript program to list the properties of a JavaScript object.
 
 The simplest way to achieve ths is to use the Object.keys method which gives us an array of keys, then join all of them in a string:
