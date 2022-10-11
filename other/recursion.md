@@ -1,5 +1,7 @@
 # JavaScript algorithms to practice - Recursion
 
+Practice algorithm questions focused on recursion - found on [w3r](https://www.w3resource.com/javascript-exercises/javascript-recursion-functions-exercises.php).
+
 Use recursion to solve the following exercises.
 
 1. Write a JavaScript program to calculate the factorial of a number.
