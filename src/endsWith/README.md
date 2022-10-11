@@ -1,6 +1,6 @@
 # EndsWith - Confirm the end of a string
 
-In this activity we will be writing code to create a function that takes in a string and determines whether or not this string ends with the given string of letters.
+In this activity, the challenge is to create a function that takes in a string and determines whether or not this string ends with the given target string of letters.
 
 ## Details
 

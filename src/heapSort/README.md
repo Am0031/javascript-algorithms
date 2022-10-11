@@ -1,6 +1,6 @@
 # Merge sort
 
-In this activity we will be writing code to create two functions that sort an array using the heap sort method, one sorting it in ascending order and one sorting it in descending order.
+In this activity, the challenge is to create two functions that sort an array using the heap sort method, one sorting it in ascending order and one sorting it in descending order.
 
 ## Details
 

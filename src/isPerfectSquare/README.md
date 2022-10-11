@@ -1,6 +1,6 @@
 # Is Perfect Square
 
-In this activity we will be writing code to create a function that takes in a whole number, then returns `true` if the number is a [perfect square](https://en.wikipedia.org/wiki/Square_number) and otherwise returns `false`.
+In this activity, the challenge is to create a function that takes in a whole number, then returns `true` if the number is a [perfect square](https://en.wikipedia.org/wiki/Square_number) and otherwise returns `false`.
 
 ## Details
 

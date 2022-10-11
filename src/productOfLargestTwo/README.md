@@ -1,6 +1,6 @@
 # Product of Largest Two
 
-In this activity we will be writing code to create a function that finds the largest two numbers in an array and returns the product of both numbers.
+In this activity, the challenge is to create a function that finds the largest two numbers in an array and returns the product of both numbers.
 
 ## Details
 

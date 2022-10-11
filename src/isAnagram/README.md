@@ -1,6 +1,6 @@
 # Is Anagram
 
-In this activity we will write code to create a function that takes in two strings and returns `true` if one string is an anagram of another string and otherwise returns `false`.
+In this activity, the challenge is to create a function that takes in two strings and returns `true` if one string is an anagram of another string and otherwise returns `false`.
 
 ## Details
 

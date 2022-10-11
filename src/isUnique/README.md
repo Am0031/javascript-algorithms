@@ -1,6 +1,6 @@
 # Is Unique
 
-In this activity we write code to create a function that takes an array of numbers and returns `true` if no number appears more than once in the given array; else, it returns `false`.
+In this activity, the challenge is to create a function that takes an array of numbers and returns `true` if no number appears more than once in the given array; else, it returns `false`.
 
 ## Examples
 

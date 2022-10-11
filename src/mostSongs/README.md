@@ -1,6 +1,6 @@
 # Most Songs in Playlist
 
-In this activity we will be writing code to create a function that takes an array of numbers, each representing the duration of a song. We will return the maximum number of songs present in the array that can fit into a 60-minute playlist.
+In this activity, the challenge is to create a function that takes an array of numbers, each representing the duration of a song. We will return the maximum number of songs present in the array that can fit into a 60-minute playlist.
 
 ## Details
 

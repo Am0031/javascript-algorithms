@@ -1,6 +1,6 @@
 # Camel Case
 
-In this activity we will be writing code to create a function that takes a string and returns the string in camel case.
+In this activity, the challenge is to create a function that takes a string and returns the string in camel case.
 
 ## Details
 

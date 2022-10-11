@@ -1,6 +1,6 @@
 # Sieve of Eratosthenes
 
-In this activity we will be writing code to create a function that returns the prime numbers in a range of numbers using the **Sieve of Eratosthenes** method.
+In this activity, the challenge is to create a function that returns the prime numbers in a range of numbers using the **Sieve of Eratosthenes** method.
 
 ## The Sieve of Eratosthenes concept
 

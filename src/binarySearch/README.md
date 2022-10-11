@@ -1,6 +1,6 @@
 # Binary Search
 
-In this activity, we will write code to create functions that take a sorted array of numbers and a target number and search the array using a binary search function and return the index of the target number in the given array.
+In this activity, the challenge is to create functions that take a sorted array of numbers and a target number and search the array using a binary search function and return the index of the target number in the given array.
 
 We will write a recursive approach and a iterative approach.
 

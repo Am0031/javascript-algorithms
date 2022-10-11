@@ -1,6 +1,6 @@
 # Title Case
 
-In this activity we will be writing code to create a function that capitalizes the first letter of every word in a given string.
+In this activity, the challenge is to create a function that capitalizes the first letter of every word in a given string.
 
 ## Details
 

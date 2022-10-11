@@ -1,6 +1,6 @@
 # Bubble sort
 
-In this activity we will be writing code to create a function that sorts an array using the bubble sort method.
+In this activity, the challenge is to create a function that sorts an array using the bubble sort method.
 
 ## Details
 

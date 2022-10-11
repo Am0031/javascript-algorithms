@@ -1,6 +1,6 @@
 # Character Count
 
-In this activity, we will write code to create a function that takes a string and returns an object containing the characters in the string and the number of times they appear.
+In this activity, the challenge is to create a function that takes a string and returns an object containing the characters in the string and the number of times they appear.
 
 ## Details
 

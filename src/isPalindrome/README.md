@@ -1,6 +1,6 @@
 # Is Palindrome
 
-In this activity we will be writing code to create a function that takes in a string and determines whether or not it is a palindrome. A **palindrome** is any string spelled the same forwards as it is backwards.
+In this activity, the challenge is to create a function that takes in a string and determines whether or not it is a palindrome. A **palindrome** is any string spelled the same forwards as it is backwards.
 
 ## Details
 

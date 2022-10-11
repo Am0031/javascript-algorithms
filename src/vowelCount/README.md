@@ -1,6 +1,6 @@
 # Vowel Count
 
-In this activity we will be writing code to create a function that counts the number of vowels in a given string.
+In this activity, the challenge is to create a function that counts the number of vowels in a given string.
 
 ## Details
 

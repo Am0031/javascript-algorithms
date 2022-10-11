@@ -1,6 +1,6 @@
 # Array Search 2D
 
-In this activity we will be writing code to create a function that takes in a two-dimensional (2D) array and searches each 2D element for the character `X`.
+In this activity, the challenge is to create a function that takes in a two-dimensional (2D) array and searches each 2D element for the character `X` and returns the number of times `X` appears in the 2D array.
 
 ## Details
 

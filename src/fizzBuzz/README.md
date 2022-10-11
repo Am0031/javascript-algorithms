@@ -1,10 +1,10 @@
 # FizzBuzz test
 
-In this activity we will be writing code to create a function that goes through a range of numbers (from number 1 to a `count` number) and for each number:
+In this activity, the challenge is to create a function that goes through a range of numbers (from number 1 to a `count` number) and for each number:
 
-- replaces it by `Fizz` if the number is divisable by num1,
-- replaces it by `Buzz` if the number is divisable by num2,
-- replaces it by `FizzBuzz` if the number is divisable by both num1 and num2,
+- replaces it by `Fizz` if the number can be divided by num1,
+- replaces it by `Buzz` if the number can be divided by num2,
+- replaces it by `FizzBuzz` if the number can be divided by both num1 and num2,
 - or keeps the number itself.
 
 And returns a string of all the results (for all the numbers from 1 to 100).
