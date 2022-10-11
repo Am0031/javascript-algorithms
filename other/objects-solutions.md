@@ -1,6 +1,6 @@
 # JavaScript algorithms to practice - Objects - Solutions
 
-These are the solutions I worked out for the practice algorithms questions compiled in the [objects.md](objects.md) file. There might be other and more efficient ways to resolve the questions.
+These are the solutions I worked out for some of the practice algorithms questions compiled in the [objects.md](objects.md) file. There might be other and more efficient ways to resolve the questions.
 
 1. Write a JavaScript program to list the properties of a JavaScript object.
 
