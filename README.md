@@ -73,6 +73,12 @@ Available themes:
 - objects
 - Math
 
+## Links to other practice questions
+
+Link to data structure and algorithm practice questions: [LeetCode](https://leetcode.com/problemset/all/)
+
+Link to SQL practice questions: [DataLemur](https://datalemur.com/sql-interview-questions)
+
 ## Installation
 
 To run this project on your own computer, you can follow the steps below in your terminal:
