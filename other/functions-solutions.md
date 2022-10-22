@@ -41,7 +41,7 @@ const combinations = (str) => {
       combiArray.push(string);
     }
   }
-  return combiArray;
+  return combiArray.join();
 };
 
 console.log(combinations("doggy"));
