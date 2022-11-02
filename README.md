@@ -26,6 +26,7 @@ If you'd like to practice resolving an algorithm, I suggest to open the algorith
 - **factorial**: returns the factorial of a given positive number, or 1 when given 0, or undefined when given a negative number
 - **mostSongs**: return the maximum number of elements present in the array, with a maximum sum of 60
 - **fizzBuzz**: goes through the numbers 1 to 100 and for each number: replaces it by `Fizz` if the number is divisable by num1, replaces it by `Buzz` if the number is divisable by num2, replaces it by `FizzBuzz` if the number is divisable by both num1 and num2, or keeps the number itself, and then returns the complete string of results for all numbers.
+- **roman**: reads a given roman number string and returns its corresponding integer value.
 
 ### Strings
 
