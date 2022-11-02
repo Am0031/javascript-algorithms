@@ -19,4 +19,28 @@ describe("roman", () => {
     const result = roman(string);
     expect(result).toEqual(expected);
   });
+  it("should return the message 'Not a roman number' when given an empty string ", () => {
+    const expected = "Not a roman number";
+    const string = "";
+    const result = roman(string);
+    expect(result).toEqual(expected);
+  });
+  it("should return the message 'Not a roman number' when given a number ", () => {
+    const expected = "Not a roman number";
+    const string = 5;
+    const result = roman(string);
+    expect(result).toEqual(expected);
+  });
+  it("should return the message 'Not a roman number' when given an object ", () => {
+    const expected = "Not a roman number";
+    const string = {};
+    const result = roman(string);
+    expect(result).toEqual(expected);
+  });
+  it("should return the message 'Not a roman number' when given undefined ", () => {
+    const expected = "Not a roman number";
+    const string = undefined;
+    const result = roman(string);
+    expect(result).toEqual(expected);
+  });
 });

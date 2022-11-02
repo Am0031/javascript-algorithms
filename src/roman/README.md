@@ -26,6 +26,7 @@ More rules for understanding Roman numbers include:
 ## Details
 
 We will be writing code in the body of the `roman` function to achieve the following: read the roman number and return the corresponding integer.
+We will assume that the numbers we work with are always less than 4000.
 
 See the following array for an example:
 
