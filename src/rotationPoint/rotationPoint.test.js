@@ -37,6 +37,18 @@ describe("rotationPoint", () => {
     const result = rotationPoint(array);
     expect(result).toEqual(expected);
   });
+  it("should return the number -1 when given an empty array ", () => {
+    const expected = -1;
+    const array = [];
+    const result = rotationPoint(array);
+    expect(result).toEqual(expected);
+  });
+  it("should return the number -1 when given the array ['cool']", () => {
+    const expected = -1;
+    const array = ["cool"];
+    const result = rotationPoint(array);
+    expect(result).toEqual(expected);
+  });
   it("should return the number -1 when given an undefined array ", () => {
     const expected = -1;
     const array = undefined;
