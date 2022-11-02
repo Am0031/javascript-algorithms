@@ -52,7 +52,7 @@ If you'd like to practice resolving an algorithm, I suggest to open the algorith
 - **bubbleSort**: sorts numbers in an array using the bubble sort method
 - **mergeSort**: sorts numbers in an array using the merge sort method
 - **heapSort**: sorts numbers in an array using the heap sort method
-- **mostFrequent**: finds the items that appears the most in the array and returns the item and the number of times it appears
+- **mostFrequent**: finds the items that appears the most in the array (using hash tables) and returns the item and the number of times it appears
 - **rotationPoint**: returns the index of the position at which the sorted array is rotated, or -1
 
 ## The OTHER Folder
