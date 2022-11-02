@@ -1,10 +1,10 @@
 //function that find the index of the rotation point in an array
 
 const rotationPoint = (array) => {
-  //check array is not undefined
+  //check array is of type array and has some items in it
   if (Array.isArray(array) && array.length) {
     //loop through array - binary method
-    //set the edges of the array to check
+    //set the edges of the array to check - start with full array
     let left = 0;
     let right = array.length - 1;
     //iterate over the portion until there is no more items to compare
@@ -12,8 +12,8 @@ const rotationPoint = (array) => {
       //find the middle
       const middle = Math.floor((right + left) / 2);
       //compare middle and middle+1
-      // if out of order at this point, return middle+1 index
       if (array[middle + 1] < array[middle]) {
+        // if out of order at this point, return middle+1 index
         return middle + 1;
       }
       //if in order, continue to next comparison - to know which side to go to
