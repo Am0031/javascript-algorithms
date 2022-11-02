@@ -69,11 +69,11 @@ These algorithms are complementary to the ones in the `src`folder. When looking 
 Available themes:
 
 - [arrays (and strings)](./other/arrays.md)
-- regex
-- functions
-- recursions
-- objects
-- Math
+- [regex](./other/regex.md)
+- [functions](./other/functions.md)
+- [recursions](./other/recursion.md)
+- [objects](./other/objects.md)
+- [Math](./other/math.md)
 
 ## Links to other practice questions
 
