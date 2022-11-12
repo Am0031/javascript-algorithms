@@ -38,6 +38,7 @@ If you'd like to practice resolving an algorithm, I suggest to open the algorith
 - **characterCount**: takes a string and returns an object containing the characters in the string and the number of times they appear
 - **vowelCount**: returns the total number of vowels present in a string
 - **endsWith**: checks if the end of a given string matches a given target
+- **oneEditAway**: checks if two strings are exactly one edit away from each other (one character difference)
 
 ### Arrays
 
