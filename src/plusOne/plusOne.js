@@ -1,4 +1,4 @@
-//function that find the index of the rotation point in an array
+//function that takes an array of digits representing a number, add 1 to it and returns the updated corresponding array of digits
 
 const plusOne = (digits) => {
   //check input type
