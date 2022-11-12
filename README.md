@@ -39,6 +39,7 @@ If you'd like to practice resolving an algorithm, I suggest to open the algorith
 - **vowelCount**: returns the total number of vowels present in a string
 - **endsWith**: checks if the end of a given string matches a given target
 - **oneEditAway**: checks if two strings are exactly one edit away from each other (one character difference)
+- **caesarCipher**: takes a string and an offset and shifts each letter in the string by the given offset through the alphabet
 
 ### Arrays
 
