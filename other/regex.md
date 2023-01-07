@@ -26,7 +26,7 @@ Practice algorithm questions focused on validation using regular expressions (Re
 
 4. Write a JavaScript program to search a date within a string. The date format to find is dd/mm/yyyy.
 
-5. Write a JavaScript program that work as a trim function (string) using regular expression.
+5. Write a JavaScript program that work as a trim function (trimming a string) using regular expression.
 
 6. Write a JavaScript program to count number of words in string.
    Note :
