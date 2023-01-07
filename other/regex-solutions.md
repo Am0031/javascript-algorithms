@@ -31,6 +31,27 @@ console.log(checkFirstLetter("Hello")); //returns "First character is uppercase"
 
 2. Write a JavaScript program to check a credit card number.
 
-```
-coming soon!
+Types to check:
+
+- Visa :- Starting with 4, length 13 or 16 digits.
+- MasterCard :- Starting with 51 through 55, length 16 digits.
+- Discover :- Starting with 6011, length 16 digits or starting with 5, length 15 digits.
+- American Express :- Starting with 34 or 37, length 15 digits.
+- Diners Club :- Starting with 300 through 305, 36, or 38, length 14 digits.
+- JCB :- Starting with 2131 or 1800, length 15 digits or starting with 35, length 16 digits.
+
+```js
+const number1 = 340125789963581;
+const number2 = 4152637485964;
+const number3 = 111222333444;
+
+const check = (str) => {
+  const regex =
+    /^(?:(4[0-9]{12}(?:[0-9]{3})?)|(5[1-5][0-9]{14})|(6(?:011|5[0-9]{2})[0-9]{12})|(3[47][0-9]{13})|(3(?:0[0-5]|[68][0-9])[0-9]{11})|((?:2131|1800|35[0-9]{3})[0-9]{11}))$/;
+  return regex.test(str);
+};
+
+console.log(check(number1));
+console.log(check(number2));
+console.log(check(number3));
 ```
