@@ -84,3 +84,15 @@ console.log(containsDate("Tuesday 23/02/1985 15:30:45 GMT")); //returns true
 console.log(containsDate("Tuesday 23-02-1985 15:30:45 GMT")); //returns false
 console.log(containsDate("Tuesday 23 Feb 15:30:45 GMT")); //returns false
 ```
+
+5. Write a JavaScript program that work as a trim function (trimming a string) using a regular expression.
+
+```js
+const trim = (str) => {
+  return str.replace(/^\s+|\s+$/g, "");
+};
+
+console.log(trim(" tuesday 23 feb "));
+console.log(trim("   word "));
+console.log(trim("hello"));
+```
