@@ -24,7 +24,7 @@ Practice algorithm questions focused on validation using regular expressions (Re
    - Characters ! # $ % & ' \* + - / = ? ^ \_ ` { | } ~
    - Character . ( period, dot or fullstop) provided that it is not the first or last character and it will not come one after the other.
 
-4. Write a JavaScript program to search a date within a string.
+4. Write a JavaScript program to search a date within a string. The date format to find is dd/mm/yyyy.
 
 5. Write a JavaScript program that work as a trim function (string) using regular expression.
 

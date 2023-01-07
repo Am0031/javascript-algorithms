@@ -70,3 +70,17 @@ console.log(isValidEmail("john452@gmail.com")); //returns true
 console.log(isValidEmail("f4d5e86s@example")); //returns false
 console.log(isValidEmail("111222333444@yahoo.co.uk")); //return true
 ```
+
+4. Write a JavaScript program to search a date within a string. The date format to find is dd/mm/yyyy.
+
+```js
+const containsDate = (str) => {
+  const regex =
+    /(3[01]|[12][0-9]|0?[1-9])\/(1[0-2]|0?[1-9])\/(?:[0-9]{2})?[0-9]{2}/;
+  return regex.test(str);
+};
+
+console.log(containsDate("Tuesday 23/02/1985 15:30:45 GMT")); //returns true
+console.log(containsDate("Tuesday 23-02-1985 15:30:45 GMT")); //returns false
+console.log(containsDate("Tuesday 23 Feb 15:30:45 GMT")); //returns false
+```
