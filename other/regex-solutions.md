@@ -18,6 +18,17 @@ console.log(checkFirstLetter("Cats are the best")); //returns true
 console.log(checkFirstLetter("yes I agree!")); //returns false
 ```
 
+Other solution if we want to return something more formatted than true/false:
+
+```js
+const checkFirstLetter = (str) => {
+  const regex = /^[A-Z]/;
+  return `First character is ${regex.test(str) ? "uppercase" : "lowercase"}`;
+};
+
+console.log(checkFirstLetter("Hello")); //returns "First character is uppercase"
+```
+
 2. Write a JavaScript program to check a credit card number.
 
 ```
