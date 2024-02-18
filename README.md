@@ -14,9 +14,9 @@ This project compiles a variety of javascript algorithms that I practiced. It is
 All works that are tested using jest are located in the `src` folder. The `src` folder contains a folder per function/algorithms. The names of the folders match the items listed below.
 
 Each algorithm folder contains at least a readme with more explanations for the specific algorithm, a .js file with the function and a .test.js for the corresponding jest testing.
-Note: some algorithms might have two functions (and each their corresponding tests) when I attempted two different solutions.
+Note: some algorithms might have two functions/scenarios (and each their corresponding tests) when I attempted two different scenarios/solutions.
 
-If you'd like to practice resolving an algorithm, I suggest to open the algorithm's readme, then create a new .js file in that folder where you can create a function with the same name as the one mentioned in the readme. To check if your function works, you can export your function at the end of your file, and adjust the import at the top of the .test.js file so that it imports your function instead of mine. That way, the tests will display the results for your function (and not mine).
+If you'd like to practice resolving an algorithm, I suggest to open the algorithm's readme, then create a new .js file in that folder with a name of your choice and where you can create a function with the same name as the one mentioned in the readme. To check if your function works, you can export your function at the end of your file, and adjust the import at the top of the .test.js file so that it imports the function from the file you just created instead of from mine. That way, the tests will display the results for your function (and not mine).
 
 ### Numbers
 
@@ -95,13 +95,14 @@ To run this project on your own computer, you can follow the steps below in your
   - using SSH key:`git clone git@github.com:Am0031/javascript-algorithms.git`
 - Navigate inside the repository with instruction `cd javascript-algorithms`
 - Install dependencies with instruction `npm install`
-- Use instruction `npm run test` to see the test results in the console
-  You will see results in your terminal, with one section per test suite, with a PASS flag for the suite and a pass tick for each test, and an overall summary with the total count of tests for the whole repo.
+- Use instruction `npm run test` to see the test results in the console.
+
+You will see results in your terminal as below, with one section per test suite (with a PASS flag for the suite and a pass tick for each test), and an overall summary underneath with the total count of tests for the whole repo.
 
 Your terminal will look like in the screenshot below:
 ![screenshot-terminal](image.png)
 
-Once the repo is installed, you can go and edit any function, or add your own files if you want to attempt them a different way, or even add your own algorithms for your own practice. Then you can just use the instruction `npm run test` to run all tests again and see if they still pass.
+Once the repo is installed and and successfully runs, you can go and edit any function, or add your own files if you want to attempt them a different way, or even add your own algorithms for your own practice. Then you can just use the instruction `npm run test` to run all tests again and see if they still pass.
 
 If you have an extension such as Jest installed, you might be able to run single tests that you are working on instead of running the whole suite in the terminal. That might look like this screenshot, with a play button appearing when you hover over a specific test:
 
