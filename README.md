@@ -104,6 +104,7 @@ Your terminal will look like in the screenshot below:
 Once the repo is installed, you can go and edit any function, or add your own files if you want to attempt them a different way, or even add your own algorithms for your own practice. Then you can just use the instruction `npm run test` to run all tests again and see if they still pass.
 
 If you have an extension such as Jest installed, you might be able to run single tests that you are working on instead of running the whole suite in the terminal. That might look like this screenshot, with a play button appearing when you hover over a specific test:
+
 ![screenshot-jest](image-1.png)
 
 ## Contact me
