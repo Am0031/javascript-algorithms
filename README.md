@@ -99,7 +99,7 @@ To run this project on your own computer, you can follow the steps below in your
   You will see results in your terminal, with one section per test suite, with a PASS flag for the suite and a pass tick for each test, and an overall summary with the total count of tests for the whole repo.
 
 Your terminal will look like in the screenshot below:
-(![screenshot-terminal](image.png))
+![screenshot-terminal](image.png)
 
 Once the repo is installed, you can go and edit any function, or add your own files if you want to attempt them a different way, or even add your own algorithms for your own practice. Then you can just use the instruction `npm run test` to run all tests again and see if they still pass.
 
