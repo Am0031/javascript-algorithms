@@ -1,6 +1,6 @@
 # Total goals
 
-In this activity, the challenge is to create a function that checks football league data, which we will assume was received from a third party api, and extract from it the total number of goals that a given team has scored that year.
+In this activity, the challenge is to create a function that checks football league data, which we will assume was received from a third party api (from json file here), and extract from it the total number of goals that a given team has scored that year.
 
 ## Examples
 
