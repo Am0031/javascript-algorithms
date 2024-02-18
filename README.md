@@ -28,6 +28,7 @@ If you'd like to practice resolving an algorithm, I suggest to open the algorith
 - **fizzBuzz**: goes through the numbers 1 to 100 and for each number: replaces it by `Fizz` if the number is divisable by num1, replaces it by `Buzz` if the number is divisable by num2, replaces it by `FizzBuzz` if the number is divisable by both num1 and num2, or keeps the number itself, and then returns the complete string of results for all numbers.
 - **roman**: reads a given roman number string and returns its corresponding integer value.
 - **plusOne**: takes an array of digits representing a number, adds 1 to the number and returns an updated array of digits.
+- **totalGoals**: takes a team name as a string and checks a data object to extract the total number of goals scored by this team.
 
 ### Strings
 
@@ -44,6 +45,7 @@ If you'd like to practice resolving an algorithm, I suggest to open the algorith
 ### Arrays
 
 - **isUnique**: check if array contains only unique numbers
+- **uniqueItems**: check an array for unique items, by either filtering out all duplicates and returning a shorter array of unique items only, or by isolating the items already unique in the array and returning those only
 - **arraySearch2D**: returns the number of times a specific character
   is present in the 2D array
 - **largestNumber**: returns the largest number in an array of numbers
