@@ -96,6 +96,8 @@ To run this project on your own computer, you can follow the steps below in your
 - Navigate inside the repository with instruction `cd javascript-algorithms`
 - Install dependencies with instruction `npm install`
 - Use instruction `npm run test` to see the test results in the console
+  You will see results in your terminal, with one section per test suite, with a PASS flag for the suite and a pass tick for each test, and an overall summary with the total count of tests for the whole repo. it should look like in the screenshot below:
+  (![alt text](image.png))
 
 Once the repo is installed, you can go and edit any function, or add your own files if you want to attempt them a different way, or even add your own algorithms for your own practice.
 
